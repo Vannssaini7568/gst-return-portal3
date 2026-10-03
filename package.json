@@ -11,3 +11,4 @@
   "dependencies":{"@vitejs/plugin-react":"latest","lucide-react":"latest","react":"latest","react-dom":"latest","react-router-dom":"latest","recharts":"latest","tailwindcss":"latest","@tailwindcss/vite":"latest","vite":"latest"},
   "devDependencies":{}
 }
+ 
