@@ -90,7 +90,7 @@ export default function AdminPanel() {
               ].map((x) => (
                 <th
                   className="px-4 py-3"
-                  key={x}
+                  key={x} 
                 >
                   {x}
                 </th>
@@ -122,7 +122,7 @@ export default function AdminPanel() {
                 </td>
 
                 <td className="px-4 py-3 border-gray-200">
-                  <button className="text-brand-600">
+                  <button  className="text-brand-600">
                     Manage
                   </button>
                 </td>
