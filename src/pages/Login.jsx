@@ -117,7 +117,7 @@ export default function Login() {
                 Remember Me
               </label>
               <button className="font-semibold text-brand-600">
-                Forgot Password?  zzzzz
+                Forgot Password?
               </button>
             </div>
 

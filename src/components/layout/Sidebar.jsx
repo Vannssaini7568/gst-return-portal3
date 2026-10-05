@@ -85,7 +85,7 @@ export default function Sidebar({
             key={to}
             to={to}
             className={({ isActive }) =>
-              `flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium ${
+              `flex items-center gap-3 rounded-lg px-3 py-2.5 text-base font-semibold ${
                 isActive
                   ? 'bg-brand-50 text-brand-700'
                   : 'text-slate-600 hover:bg-slate-50'
@@ -108,7 +108,7 @@ export default function Sidebar({
         >
           <LogOut size={19} />
 
-          <span className={collapsed ? 'md:hidden' : ''}>
+          <span className={collapsed ? 'md:hidden' : ' text-base font-semibold'}>
             Logout
           </span>
         </button>
