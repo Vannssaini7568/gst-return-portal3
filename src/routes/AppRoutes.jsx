@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, Link} from 'react-router-dom';
 import { get, KEYS } from '../utils/localStorage';
 import DashboardLayout from '../components/layout/DashboardLayout';
 import Login from '../pages/Login';
@@ -23,9 +23,9 @@ function NotFound() {
       <div className="text-center">
         <p className="text-6xl font-black">404</p>
         <p className="mt-2 text-slate-500">Page not found</p>
-        <a className="mt-4 inline-block text-brand-600" href="/dashboard" >
+        <Link className="mt-4 inline-block text-brand-600" to="/dashboard" >
           Go to Dashboard
-        </a>
+        </Link>
       </div>
     </div>
   );
